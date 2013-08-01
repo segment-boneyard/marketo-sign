@@ -1,0 +1,14 @@
+{
+  "name": "marketo-sign",
+  "version": "0.1.0",
+  "description": "Marketo Authentication utilities",
+  "keywords": [],
+  "author": "Segment.io <friends@segment.io>",
+  "repository": { "type": "git", "url": "git://github.com/segmentio/marketo-sign.git" },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "lib/index"
+}
