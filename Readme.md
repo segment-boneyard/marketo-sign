@@ -1,6 +1,8 @@
 
 # marketo-sign
 
+[![Build Status](https://travis-ci.org/segmentio/marketo-sign.svg)](https://travis-ci.org/segmentio/marketo-sign)
+
   A set of utilities to sign marketo requests
 
 ## marketoSign(userId, encryptionKey, [timestamp])
