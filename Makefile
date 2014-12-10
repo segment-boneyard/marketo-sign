@@ -1,7 +1,6 @@
 
 test:
-	@./node_modules/.bin/mocha \
-		--require should \
+	@TZ=UTC ./node_modules/.bin/mocha \
 		--reporter spec
 
 .PHONY: test
