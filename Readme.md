@@ -16,15 +16,15 @@ var signature = marketoSign(userId, encryptionKey, timestamp);
 console.log(signature); // '406b82d92b250d7010fac6872973ca69e3009703'
 ```
 
-## .email(encryptionKey, email)
+## .email(key, email)
 
-  Sign a marketo user's email using the encryption key so that Munchkin can make secure Marketo calls
+  Sign a marketo user's email using the encryption key or API private key so that Munchkin can make secure Marketo calls
 
 ```javascript
 var email         = 'calvin@segment.io'
-  , encryptionKey = '04815162342048151623420481516234204815162342';
+  , key = '04815162342048151623420481516234204815162342';
 
-var signature = marketoSign.email(encryptionKey, email);
+var signature = marketoSign.email(key, email);
 console.log(signature); // '2b10f792b8fa3e0b45018195fb2ba39f21350c76'
 ```
 
